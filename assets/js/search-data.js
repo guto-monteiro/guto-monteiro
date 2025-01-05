@@ -117,11 +117,11 @@ ninja.data = [{
       
         title: "32th Brazilian Symposium of Microbiology",
       
-      description: "",
+      description: "march &amp; april, looking forward to summer",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2023/1/blog-post-1/";
+          window.location.href = "/blog/2023/blog-post-1/";
         
       },
     },{id: "news-a-simple-inline-announcement",
