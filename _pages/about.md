@@ -7,7 +7,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: > 
     
 
@@ -16,7 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<!--Hi there 👋 -->
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=guto-monteiro.guto-monteiro)
 ![decription](https://img.shields.io/badge/Language-Python-green)
 ![decription](https://img.shields.io/badge/Language-R-blue)
@@ -26,10 +25,8 @@ My name is Gabriel Monteiro, and I am a master's student funded by the [São Pau
 
 Research interests
 ======
-
 <p style="text-align: center;">"Essentially, all life depends upon the soil. There can be no life without soil and no soil without life. They have evolved together." 
   (C. Kellogg)</p>
   
-
 I am a soil microbial and chemical ecologist fascinated by plant-soil-microbes interactions. My goal as a (microbial) researcher is to explore the complex interactions between the aboveground plants and the belowground soil and microbes in tropical ecosystems in the context of climate change. To accomplish this, we rely on different techniques such as molecular biology, next-generation sequencing, and mass spectrometry.
 
