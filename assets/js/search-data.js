@@ -58,7 +58,51 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-international-research-stay-in-the-gleixner-group-at-the-max-planck-institute-for-biogeochemistry",
+      
+        title: "International Research Stay in the Gleixner group at the Max Planck Institute for...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2024/1/blog-post-4/";
+        
+      },
+    },{id: "post-19th-international-symposium-on-microbial-ecology-isme",
+      
+        title: "19th International Symposium on Microbial Ecology (ISME)",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2024/1/blog-post-3/";
+        
+      },
+    },{id: "post-5th-plant-microbiome-symposium",
+      
+        title: "5th Plant Microbiome Symposium",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2024/1/blog-post-2/";
+        
+      },
+    },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo",
+      
+        title: "Visit to the Netherlands Institute of Ecology (NIOO)",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2024/1/blog-post-1/";
+        
+      },
+    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -67,6 +111,28 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+        
+      },
+    },{id: "post-8th-ebame-workshop-on-computational-microbial-ecogenomics",
+      
+        title: "8th EBAME Workshop on Computational Microbial Ecogenomics",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2023/1/blog-post-2/";
+        
+      },
+    },{id: "post-32th-brazilian-symposium-of-microbiology",
+      
+        title: "32th Brazilian Symposium of Microbiology",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/posts/2023/1/blog-post-1/";
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
