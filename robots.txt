@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://guto-monteiro.github.io/al-folio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://guto-monteiro.github.io/sitemap.xml
