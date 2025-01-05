@@ -106,11 +106,11 @@ ninja.data = [{
       
         title: "8th EBAME Workshop on Computational Microbial Ecogenomics",
       
-      description: "",
+      description: "this is what included image galleries could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2023/1/blog-post-2/";
+          window.location.href = "/blog/2023/blog-post-2/";
         
       },
     },{id: "post-32th-brazilian-symposium-of-microbiology",
