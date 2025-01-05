@@ -8,18 +8,28 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: > 
+    
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!--Hi there 👋 -->
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=guto-monteiro.guto-monteiro)
+![decription](https://img.shields.io/badge/Language-Python-green)
+![decription](https://img.shields.io/badge/Language-R-blue)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My name is Gabriel Monteiro, and I am a master's student funded by the [São Paulo Research Foundation (FAPESP)](https://fapesp.br/en) at the [Center for Nuclear Energy in Agriculture](http://www.cena.usp.br/) of the University of São Paulo (Brazil). I'm working in Prof. [Siu Mui Tsai's](https://bv.fapesp.br/en/pesquisador/216/tsai-siu-mui) group on the soil microbial carbon metabolism across tropical agroforests, with a particular emphasis on the dissolved organic matter molecular composition and its relation to microbial community function
+
+Research interests
+======
+
+<p style="text-align: center;">"Essentially, all life depends upon the soil. There can be no life without soil and no soil without life. They have evolved together." 
+  (C. Kellogg)</p>
+  
+
+I am a soil microbial and chemical ecologist fascinated by plant-soil-microbes interactions. My goal as a (microbial) researcher is to explore the complex interactions between the aboveground plants and the belowground soil and microbes in tropical ecosystems in the context of climate change. To accomplish this, we rely on different techniques such as molecular biology, next-generation sequencing, and mass spectrometry.
+
