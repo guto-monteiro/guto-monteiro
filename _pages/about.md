@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 ![decription](https://img.shields.io/badge/Language-R-blue)
 
 
-My name is Gabriel Monteiro, and I am a master's student funded by the [São Paulo Research Foundation (FAPESP)](https://fapesp.br/en) at the [Center for Nuclear Energy in Agriculture](http://www.cena.usp.br/) of the University of São Paulo (Brazil). I'm working in Prof. [Siu Mui Tsai's](https://bv.fapesp.br/en/pesquisador/216/tsai-siu-mui) group on the soil microbial carbon metabolism across tropical agroforests, with a particular emphasis on the dissolved organic matter molecular composition and its relation to microbial community function
+My name is Gabriel Monteiro, and I am a master's student funded by the [São Paulo Research Foundation (FAPESP)](https://fapesp.br/en) at the [Center for Nuclear Energy in Agriculture](http://www.cena.usp.br/) of the University of São Paulo (Brazil). I'm working in Prof. Siu Mui Tsai's group on the soil microbial carbon metabolism across tropical agroforests, with a particular emphasis on the dissolved organic matter molecular composition and its relation to microbial community function
 
 Research interests
 ======
