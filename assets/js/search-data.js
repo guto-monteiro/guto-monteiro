@@ -128,6 +128,17 @@ ninja.data = [{
       
         title: "32th Brazilian Symposium of Microbiology",
       
+      description: "march &amp; april, looking forward to summer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/formatting-and-links/";
+        
+      },
+    },{id: "post-32th-brazilian-symposium-of-microbiology",
+      
+        title: "32th Brazilian Symposium of Microbiology",
+      
       description: "",
       section: "Posts",
       handler: () => {
@@ -144,17 +155,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-        
-      },
-    },{id: "post-a-post-with-formatting-and-links",
-      
-        title: "a post with formatting and links",
-      
-      description: "march &amp; april, looking forward to summer",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/formatting-and-links/";
         
       },
     },{id: "news-a-simple-inline-announcement",
