@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+[Researchers from the INCR MRfor help to trace illegal wood](https://g1.globo.com/ap/amapa/noticia/2024/12/12/projeto-vai-usar-assinatura-quimica-e-dna-de-arvores-para-rastrear-madeira-e-evitar-desmatamentos-ilegais-no-ap.ghtml) 
