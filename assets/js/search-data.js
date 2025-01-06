@@ -124,15 +124,15 @@ ninja.data = [{
           window.location.href = "/blog/2023/blog-post-1/";
         
       },
-    },{id: "news-end-of-research-stay-in-germany",
+    },{id: "news-see-out-new-article",
+          title: 'See out new article!',
+          description: "",
+          section: "News",},{id: "news-end-of-research-stay-in-germany",
           title: 'End of research stay in Germany',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-see-out-new-article",
-          title: 'See out new article!',
-          description: "",
-          section: "News",},{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood",
+            },},{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood",
           title: 'Researchers from the INCR MRfor help to trace illegal wood',
           description: "",
           section: "News",},{id: "projects-project-1",
