@@ -84,11 +84,11 @@ ninja.data = [{
       
         title: "5th Plant Microbiome Symposium",
       
-      description: "",
+      description: "this is what included image galleries could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2024/1/blog-post-2/";
+          window.location.href = "/blog/2024/bolg-post-4/";
         
       },
     },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo",
