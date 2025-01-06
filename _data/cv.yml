@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Gabriel Gustavo Tavares Nunes Monteiro
     - name: Date of Birth
-      value: 14th March 1879
+      value: 6th January 2000
     - name: Languages
-      value: English, German
+      value: English, Portuguese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Sc
+      institution: Federal Rural University of the Amazon (UFRA), Belém, Brazil
+      year: 2022
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: M.Sc
+      institution: University of Sao Paulo, Piracicaba, Brazil
+      year: 2025
       description:
         - Description 1.
         - Description 2.
@@ -31,9 +31,24 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Scientific Initiation 
+      institution: Institute of Agricultural Sciences, Federal Rural University of the Amazon (UFRA), Belém, Brazil
+      year: 2019 - 2021
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+        
+    - title: Scientific Initiation
+      institution: Institute of Biological Sciences, Federal University of Pará (UFPA), Belém, Brazil
+      year: 2021 - 2022
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Guest Researcher  
+      institution: Department of Biogeochemical Processes, Max Planck Institute for Biogeochemistry (MPI-BGC), Jena, Germany
+      year: 2024 - 2024
       description:
         - Description 1.
         - Description 2.
@@ -41,43 +56,27 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: B.Sc in Sciences (Biology in Agriculture and the Environment)  
+      institution: University of Sao Paulo, Piracicaba, Brazil
+      year: 2022 - 2025
       description:
         - Description 1.
         - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Commendation in recognition of the significant services rendered for the development of the State of Pará
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Best Poster in Soil Microbiology - XXXII Brazilian Congress of Microbiology (CBM)
 
 - title: Academic Interests
   type: nested_list
