@@ -124,8 +124,8 @@ ninja.data = [{
           window.location.href = "/blog/2023/blog-post-1/";
         
       },
-    },{id: "news-see-out-new-article",
-          title: 'See out new article!',
+    },{id: "news-see-our-new-article-on-soil-microbial-resilience-after-continuous-draining-flooding-cycles",
+          title: 'See our new article on soil microbial resilience after continuous Draining-Flooding cycles!',
           description: "",
           section: "News",},{id: "news-end-of-research-stay-in-germany",
           title: 'End of research stay in Germany',
