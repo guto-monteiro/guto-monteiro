@@ -73,11 +73,11 @@ ninja.data = [{
       
         title: "19th International Symposium on Microbial Ecology (ISME)",
       
-      description: "",
+      description: "this is what included image galleries could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2024/1/blog-post-3/";
+          window.location.href = "/blog/2024/blog-post-5/";
         
       },
     },{id: "post-5th-plant-microbiome-symposium",
