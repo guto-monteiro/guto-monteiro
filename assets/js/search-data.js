@@ -124,8 +124,8 @@ ninja.data = [{
           window.location.href = "/blog/2023/blog-post-1/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood",
+          title: 'Researchers from the INCR MRfor help to trace illegal wood',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
