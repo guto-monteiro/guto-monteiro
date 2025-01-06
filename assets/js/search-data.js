@@ -62,11 +62,11 @@ ninja.data = [{
       
         title: "International Research Stay in the Gleixner group at the Max Planck Institute for...",
       
-      description: "",
+      description: "this is what included image galleries could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2024/1/blog-post-4/";
+          window.location.href = "/blog/2024/blog-post-6/";
         
       },
     },{id: "post-19th-international-symposium-on-microbial-ecology-isme",
