@@ -95,11 +95,11 @@ ninja.data = [{
       
         title: "Visit to the Netherlands Institute of Ecology (NIOO)",
       
-      description: "",
+      description: "this is what included image galleries could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/posts/2024/1/blog-post-1/";
+          window.location.href = "/blog/2024/blog-post-3/";
         
       },
     },{id: "post-8th-ebame-workshop-on-computational-microbial-ecogenomics",
