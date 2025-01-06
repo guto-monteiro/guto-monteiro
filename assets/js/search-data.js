@@ -127,8 +127,8 @@ ninja.data = [{
     },{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood",
           title: 'Researchers from the INCR MRfor help to trace illegal wood',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-end-of-research-stay-in-germany",
+          title: 'End of research stay in Germany',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
