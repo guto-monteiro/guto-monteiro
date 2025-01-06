@@ -129,8 +129,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood",
-          title: 'Researchers from the INCR MRfor help to trace illegal wood',
+            },},{id: "news-researchers-from-the-incr-mrfor-help-to-trace-illegal-wood-from-the-amazon-rainforest",
+          title: 'Researchers from the INCR MRfor help to trace illegal wood from the Amazon...',
           description: "",
           section: "News",},{id: "news-see-our-new-article-on-soil-microbial-resilience-after-continuous-draining-flooding-cycles",
           title: 'See our new article on soil microbial resilience after continuous Draining-Flooding cycles!',
