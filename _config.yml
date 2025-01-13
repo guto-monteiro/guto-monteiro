@@ -144,9 +144,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-  conferences:
-    output: true
-    permalink: /:conferences/:title/
     
 announcements:
   enabled: true
