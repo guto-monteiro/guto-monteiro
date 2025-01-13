@@ -144,7 +144,10 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-
+  conferences:
+    output: true
+    permalink: /:conferences/:title/
+    
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
