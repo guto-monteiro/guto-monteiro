@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with advanced image components
+title: Visit to the Netherlands Institute of Ecology (NIOO-KNAW)
 date: 2024-01-27 11:46:00
-description: this is what advanced image components could look like
+description: Tsai's lab visit to the NIOO for joint meeting  
 tags: formatting images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
@@ -11,25 +11,14 @@ images:
   slider: true
 ---
 
-This is an example post with advanced image components.
+In June, members of Tsai's lab, myself included, visited the Netherlands Institute of Ecology as guests of [Prof. Wim van der Putten](https://www.wur.nl/en/persons/wim-van-der-putten-1.htm). The visit was part of the project "Applying the biotic soil legacy approach to understand positive-negative biota interactions for direct forest restoration from plant-soil communities feedbacks", which is a joint initiative between the Dutch Research Council (NWO) and The São Paulo Research Foundation (FAPESP). Both Brazilian and Dutch students shared their latest results during the day.
 
-## Image Slider
-
-This is a simple image slider. It uses the [Swiper](https://swiperjs.com/) library. Check the [examples page](https://swiperjs.com/demos) for more information of what you can achieve with it.
+Many thanks to prof. Wim for the great opportunity and incredible talks about soil microbiology 
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image1.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image2.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image3.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image4.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
 
-## Image Comparison Slider
-
-This is a simple image comparison slider. It uses the [img-comparison-slider](https://img-comparison-slider.sneas.io/) library. Check the [examples page](https://img-comparison-slider.sneas.io/examples.html) for more information of what you can achieve with it.
-
-<img-comparison-slider>
-  {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" slot="first" %}
-  {% include figure.liquid path="assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" slot="second" %}
-</img-comparison-slider>
