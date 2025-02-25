@@ -102,6 +102,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/blog-post-3/";
         
       },
+    },{id: "post-a-post-with-advanced-image-components",
+      
+        title: "a post with advanced image components",
+      
+      description: "this is what advanced image components could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/advanced-images/";
+        
+      },
     },{id: "post-8th-ebame-workshop-on-computational-microbial-ecogenomics",
       
         title: "8th EBAME Workshop on Computational Microbial Ecogenomics",
