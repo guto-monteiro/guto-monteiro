@@ -117,7 +117,7 @@ ninja.data = [{
       
         title: "32th Brazilian Symposium of Microbiology",
       
-      description: "march &amp; april, looking forward to summer",
+      description: "",
       section: "Posts",
       handler: () => {
         
