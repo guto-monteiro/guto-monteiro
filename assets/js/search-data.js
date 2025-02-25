@@ -102,11 +102,11 @@ ninja.data = [{
           window.location.href = "/blog/2024/blog-post-3/";
         
       },
-    },{id: "post-a-post-with-advanced-image-components",
+    },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo-knaw",
       
-        title: "a post with advanced image components",
+        title: "Visit to the Netherlands Institute of Ecology (NIOO-KNAW)",
       
-      description: "this is what advanced image components could look like",
+      description: "Tsai&#39;s lab visit to the NIOO for joint meeting",
       section: "Posts",
       handler: () => {
         
