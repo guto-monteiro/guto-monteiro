@@ -91,17 +91,6 @@ ninja.data = [{
           window.location.href = "/blog/2024/bolg-post-4/";
         
       },
-    },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo",
-      
-        title: "Visit to the Netherlands Institute of Ecology (NIOO)",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/blog-post-3/";
-        
-      },
     },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo-knaw",
       
         title: "Visit to the Netherlands Institute of Ecology (NIOO-KNAW)",
