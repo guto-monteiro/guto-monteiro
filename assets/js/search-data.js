@@ -102,6 +102,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/blog-post-3/";
         
       },
+    },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo-knaw",
+      
+        title: "Visit to the Netherlands Institute of Ecology (NIOO-KNAW)",
+      
+      description: "Tsai&#39;s lab visit to the NIOO for joint meeting",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/blog-post-3/";
+        
+      },
     },{id: "post-8th-ebame-workshop-on-computational-microbial-ecogenomics",
       
         title: "8th EBAME Workshop on Computational Microbial Ecogenomics",
