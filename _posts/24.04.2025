@@ -1,0 +1,23 @@
+---
+layout: post
+title: Visit to the Netherlands Institute of Ecology (NIOO-KNAW)
+date: 2024-06-17 11:46:00
+description: Tsai's lab visit to the NIOO for joint meeting  
+tags: formatting images
+categories: sample-posts
+thumbnail: assets/img/Image1.jpeg
+images:
+  compare: true
+  slider: true
+---
+
+In June, members of Tsai's lab, myself included, visited the Netherlands Institute of Ecology as guests of [Prof. Wim van der Putten](https://www.wur.nl/en/persons/wim-van-der-putten-1.htm). The visit was part of the project "Applying the biotic soil legacy approach to understand positive-negative biota interactions for direct forest restoration from plant-soil communities feedbacks", which is a joint initiative between the Dutch Research Council (NWO) and The São Paulo Research Foundation (FAPESP). Both Brazilian and Dutch students shared their latest results during the day.
+
+Many thanks to prof. Wim for the great opportunity and incredible talks about soil microbiology 
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image1.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image2.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image3.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image4.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
