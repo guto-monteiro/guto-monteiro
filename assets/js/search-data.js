@@ -95,7 +95,7 @@ ninja.data = [{
       
         title: "5th Plant Microbiome Symposium",
       
-      description: "this is what included image galleries could look like",
+      description: "Another event",
       section: "Posts",
       handler: () => {
         
