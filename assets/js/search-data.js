@@ -117,7 +117,7 @@ ninja.data = [{
       
         title: "8th EBAME Workshop on Computational Microbial Ecogenomics",
       
-      description: "this is what included image galleries could look like",
+      description: "8th Emerging Bioinformatics Approaches for Microbial Ecogenomics",
       section: "Posts",
       handler: () => {
         
