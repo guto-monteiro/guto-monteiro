@@ -84,7 +84,7 @@ ninja.data = [{
       
         title: "19th International Symposium on Microbial Ecology (ISME)",
       
-      description: "this is what included image galleries could look like",
+      description: "International Symposium on Microbial Ecology (ISME)",
       section: "Posts",
       handler: () => {
         
