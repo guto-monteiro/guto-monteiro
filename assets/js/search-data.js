@@ -66,7 +66,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/blog-post-3/";
+          window.location.href = "/blog/2025/blog-post-7/";
         
       },
     },{id: "post-international-research-stay-in-the-gleixner-group-at-the-max-planck-institute-for-biogeochemistry",
