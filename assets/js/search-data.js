@@ -201,7 +201,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("guto-monteiro.bsky.social", "_blank");
+          window.open("https://bsky.app/profile/guto-monteiro.bsky.social", "_blank");
         },
       },{
         id: 'social-email',
