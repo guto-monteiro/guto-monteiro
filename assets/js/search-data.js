@@ -146,7 +146,12 @@ ninja.data = [{
           section: "News",},{id: "news-see-our-new-article-on-soil-microbial-resilience-after-continuous-draining-flooding-cycles",
           title: 'See our new article on soil microbial resilience after continuous Draining-Flooding cycles!',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-i-39-m-now-a-phd-at-the-max-planck-institute-for-biogeochemistry-see-ya-in-germany",
+          title: 'I&amp;#39;m now a PhD at the Max Planck Institute for Biogeochemistry (See ya...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
