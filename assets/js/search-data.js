@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-international-research-stay-in-the-gleixner-group-at-the-max-planck-institute-for-biogeochemistry",
+            },{id: "post-researchers-from-the-école-centrale-de-lyon-conduct-stable-isotope-probing-training-in-cena-usp",
+      
+        title: "Researchers from the École Centrale de Lyon conduct Stable Isotope Probing training in...",
+      
+      description: "Stable Isotope Probing training",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/blog-post-3/";
+        
+      },
+    },{id: "post-international-research-stay-in-the-gleixner-group-at-the-max-planck-institute-for-biogeochemistry",
       
         title: "International Research Stay in the Gleixner group at the Max Planck Institute for...",
       
@@ -89,17 +100,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/bolg-post-4/";
-        
-      },
-    },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo-knaw",
-      
-        title: "Visit to the Netherlands Institute of Ecology (NIOO-KNAW)",
-      
-      description: "Tsai&#39;s lab visit to the NIOO for joint meeting",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/blog-post-3/";
         
       },
     },{id: "post-visit-to-the-netherlands-institute-of-ecology-nioo-knaw",
