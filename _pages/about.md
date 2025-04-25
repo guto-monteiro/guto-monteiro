@@ -16,7 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=guto-monteiro.guto-monteiro)
 ![decription](https://img.shields.io/badge/Language-Python-green)
 ![decription](https://img.shields.io/badge/Language-R-blue)
 ![description](https://img.shields.io/badge/Microbial-Ecology-blue)
