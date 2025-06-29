@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-researchers-from-the-école-centrale-de-lyon-conduct-stable-isotope-probing-training-in-cena-usp",
+            },{id: "post-1st-nomad-summer-school-on-novel-analytical-techniques-for-organic-matter-research",
+      
+        title: "1st NOMAD Summer School on novel analytical techniques for organic matter research",
+      
+      description: "Nexus of Organic Matter Analytical Developments Summer School",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/blog-post-8/";
+        
+      },
+    },{id: "post-researchers-from-the-école-centrale-de-lyon-conduct-stable-isotope-probing-training-in-cena-usp",
       
         title: "Researchers from the École Centrale de Lyon conduct Stable Isotope Probing training in...",
       
