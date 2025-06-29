@@ -1,0 +1,25 @@
+---
+layout: post
+title: 1st NOMAD Summer School on novel analytical techniques for organic matter research
+date: 2025-06-29 11:46:00
+description: Nexus of Organic Matter Analytical Developments Summer School   
+tags: Organic Matter
+categories: sample-posts
+thumbnail: assets/img/Image9.jpeg
+images:
+  compare: true
+  slider: true
+---
+
+This summer, I had the great opportunity to visity Sweden and join the Nexus of Organic Matter Analytical Developments (NOMAD) Summer school coordinated by [Jeffrey Hawke's](https://www.jeffreyhawkes.com) group.
+
+We stayed at the Tjärno Marine Laboratory and had contact with many great researchers from around the world. Many thanks to all the teachers for the amazing opportunity!
+
+We had the chance to learn a lot about fluorescence-exitation matrix analysis, high-resolution mass spectrometry, NMR and isotopic tracing!!! 
+ 
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image5.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image6.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image7.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Image8.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
