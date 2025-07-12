@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-qiime2-tutorial-for-cris",
-      
-        title: "Qiime2 tutorial for Cris",
-      
-      description: "A code tutorial for a friend",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/blog-post-9/";
-        
-      },
-    },{id: "post-1st-nomad-summer-school-on-novel-analytical-techniques-for-organic-matter-research",
+            },{id: "post-1st-nomad-summer-school-on-novel-analytical-techniques-for-organic-matter-research",
       
         title: "1st NOMAD Summer School on novel analytical techniques for organic matter research",
       
