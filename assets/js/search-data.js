@@ -173,6 +173,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-i-39-ve-finally-defended-my-m-sc-thesis-now-i-39-m-officially-a-phd-studdent",
+          title: 'I&amp;#39;ve (finally) defended my M.Sc. thesis! Now I&amp;#39;m officially a PhD studdent',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
