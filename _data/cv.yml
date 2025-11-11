@@ -11,23 +11,31 @@
 - title: Education
   type: time_table
   contents:
+  
+    - title: PhD - International Max Planck Research School for Global Biogeochemical Cycles (IMPRS-gBGC)
+      institution: Max Planck Institute for Biogeochemistry
+      year: 2025 - now
+      description:
+
+        
+    - title: M.Sc in Sciences (Biology in Agriculture and Environment)
+      institution: University of Sao Paulo, Piracicaba, Brazil
+      year: 2022-2025
+      description:
+        - title: Agroforestry systems as an alternative for the restoration of the biological potential of Amazonian soils
+        - Description 2.
+        
     - title: B.Sc
       institution: Federal Rural University of the Amazon (UFRA), Belém, Brazil
-      year: 2022
+      year: 2017-2022
       description:
-        - Description 1.
+        - title: Molecular evidence of stimulated methane oxidation by ammonia-oxidizing communities in Amazonian floodplain soils
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: M.Sc
-      institution: University of Sao Paulo, Piracicaba, Brazil
-      year: 2025
-      description:
-        - Description 1.
-        - Description 2.
-
+            
 - title: Experience
   type: time_table
   contents:
@@ -49,17 +57,6 @@
     - title: Guest Researcher  
       institution: Department of Biogeochemical Processes, Max Planck Institute for Biogeochemistry (MPI-BGC), Jena, Germany
       year: 2024 - 2024
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-
-    - title: B.Sc in Sciences (Biology in Agriculture and the Environment)  
-      institution: University of Sao Paulo, Piracicaba, Brazil
-      year: 2022 - 2025
       description:
         - Description 1.
         - Description 2.
