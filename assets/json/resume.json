@@ -13,7 +13,7 @@
       "postalCode": "07745",
       "city": "Jena",
       "countryCode": "DE",
-      "region": "Thuringia"
+      "country": "Germany"
     },
     "profiles": [
       {
@@ -29,7 +29,7 @@
       "position": "PhD Researcher",
       "url": "https://guto-monteiro.com/",
       "startDate": "2025-09-01",
-      "endDate": "who knows?",
+      "endDate": "Ongoing",
       "summary": "Researcher working in aboveground and belowground interaction in tropical forests",
       "highlights": ["Microbial Ecology", "Metabolomics"]
     }
@@ -52,6 +52,15 @@
       "studyType": "M.Sc",
       "startDate": "2022-11-24",
       "endDate": "2025-06-24"
+    },
+    {
+      "institution": "Max Planck Institute for Biogeochemistry, Jena, Germany",
+      "location": "Jena, Germany",
+      "url": "https://www.bgc-jena.mpg.de/en",
+      "area": "Biogeochemistry",
+      "studyType": "PhD",
+      "startDate": "2025-09-01",
+      "endDate": "Ongoing"
     }
   ],
   "awards": [
@@ -152,6 +161,7 @@
         "13C and 15N IRMS analysis",
         "Soil organic matter fractioning",
         "Soil dissolved organic matter extraction",
+        "High-Resolution Mass Spectrometry",
         "Greenhouse gas collection in water and soil (field static chambers)"
       ]
     },
@@ -215,15 +225,21 @@
         "Molecular Biology",
         "Molecular Biogeochemistry",
         "Bioinformatics",
+        "Chemoinformatics",
         "Metagenomics",
         "Metabolomics"
       ]
     }
   ],
   "references": [
+     {
+      "name": "Professor Gerd Gleixner",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "ggleix@bgc-jena.mpg.de"
+    },
     {
       "name": "Professor Vania Neu",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-thumbtack",
       "reference": "bioneu@yahoo.com.br"
     },
     {
@@ -245,6 +261,14 @@
       "startDate": "2022-11-24",
       "endDate": "2025-06-24",
       "url": "https://bv.fapesp.br/en/bolsas/213409/agroforestry-systems-as-an-alternative-for-the-restoration-of-the-biological-potential-of-amazonian-/"
+    },
+    {
+      "name": "Trees, microbes, and molecules: Understanding the role of tree biodiversity in the microbial carbon fluxes of Amazonian agroforest soils",
+      "summary": "What are the molecules behind the above-belowground interactions?",
+      "highlights": ["Agroforests", "Amazon Rainforest"],
+      "startDate": "2024-06-01",
+      "endDate": "2024-12-01",
+      "url": "https://bv.fapesp.br/en/bolsas/217103/trees-microbes-and-molecules-understanding-the-role-of-tree-biodiversity-in-the-microbial-carbon-flu/"
     }
   ]
 }
