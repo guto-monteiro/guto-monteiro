@@ -4,16 +4,16 @@
     "name": "Gabriel Gustavo Tavares Nunes Monteiro",
     "label": "Scientist",
     "image": "",
-    "email": "guto.monteiro@usp.br",
-    "phone": "(19) 99806-0663",
+    "email": "gtavares@bgc-jena.mog.de",
+    "phone": "+55 (19) 99806-0663",
     "url": "https://guto-monteiro.com/",
-    "summary": "A early-career researcher eager to explore the microbial world through new perspectives",
+    "summary": "An early-career researcher eager to explore the microbial world through new perspectives",
     "location": {
-      "address": "303 Centenário St",
-      "postalCode": "13416-000",
-      "city": "Piracicaba",
-      "countryCode": "BR",
-      "region": "Sao Paulo"
+      "address": "Hans-Knöl Straße, 10",
+      "postalCode": "07745",
+      "city": "Jena",
+      "countryCode": "DE",
+      "region": "Thuringia"
     },
     "profiles": [
       {
@@ -25,13 +25,13 @@
   },
   "work": [
     {
-      "name": "Center of Nuclear Energy in Agriculture",
-      "position": "Graduation Student",
+      "name": "Max Planck Institute for Biogeochemistry",
+      "position": "PhD Researcher",
       "url": "https://guto-monteiro.com/",
-      "startDate": "2022-11-24",
-      "endDate": "2025-06-24",
-      "summary": "Researcher working in aboveground and belowground interaction in tropical agroforests",
-      "highlights": ["Microbial Ecology"]
+      "startDate": "2025-09-01",
+      "endDate": "who knows?",
+      "summary": "Researcher working in aboveground and belowground interaction in tropical forests",
+      "highlights": ["Microbial Ecology", "Metabolomics"]
     }
   ],
   "education": [
@@ -51,8 +51,7 @@
       "area": "Environmental Sciences",
       "studyType": "M.Sc",
       "startDate": "2022-11-24",
-      "endDate": "2025-06-24",
-      "score": "10"
+      "endDate": "2025-06-24"
     }
   ],
   "awards": [
