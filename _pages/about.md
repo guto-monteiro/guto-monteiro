@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=guto-monteiro.guto-monteiro)
 ![decription](https://img.shields.io/badge/Language-Python-green)
 ![decription](https://img.shields.io/badge/Language-R-blue)
-![description](https://img.shields.io/badge/Microbiology?logoColor=%235fa54b)
+![description](https://img.shields.io/badge/Soil-Microbiology-labelColor=%235fa54b)
 ![description](https://img.shields.io/badge/Microbial-Ecology-blue)
 
 My name is Gabriel Monteiro, and I am a PhD student at the International Max Planck School for Biogeochemical Cycles at the Max Planck Institute for Biogeochemistry under the supervision of apl. Prof. Gerd Gleixner. I'll mainly work in the Amazon Tall Tower Observatory site, connecting soil microbial metabolism and its effects on the dynamics of dissolved organic matter. I'm especially interested in how soil microbes and molecules change throughout seasons and with extreme events. 
