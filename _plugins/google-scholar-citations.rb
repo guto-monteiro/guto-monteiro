@@ -1,6 +1,6 @@
 require "active_support/all"
-require 'nokogiri'
-require 'open-uri'
+require "nokogiri"
+require "open-uri"
 
 module Helpers
   extend ActiveSupport::NumberHelper
@@ -8,7 +8,8 @@ end
 
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag
-    Citations = { }
+    # Cache across renders in the same build process
+    Citations = {}
 
     def initialize(tag_name, params, tokens)
       super
@@ -28,58 +29,85 @@ module Jekyll
     def render(context)
       article_id = context[@article_id.strip]
       scholar_id = context[@scholar_id.strip]
-      article_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=#{scholar_id}&citation_for_view=#{scholar_id}:#{article_id}"
+
+      # Defensive: if Liquid variables are missing, avoid blowing up
+      if scholar_id.nil? || scholar_id.to_s.strip.empty?
+        puts "Missing scholar_id in context for #{@scholar_id}"
+        return "N/A"
+      end
+
+      if article_id.nil? || article_id.to_s.strip.empty?
+        puts "Missing article_id in context for #{@article_id}"
+        return "N/A"
+      end
+
+      article_id = article_id.to_s.strip
+      scholar_id = scholar_id.to_s.strip
+
+      article_url =
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=#{scholar_id}&citation_for_view=#{scholar_id}:#{article_id}"
 
       begin
-          # If the citation count has already been fetched, return it
-          if GoogleScholarCitationsTag::Citations[article_id]
-            return GoogleScholarCitationsTag::Citations[article_id]
+        # If the citation count has already been fetched, return it
+        if GoogleScholarCitationsTag::Citations.key?(article_id)
+          return GoogleScholarCitationsTag::Citations[article_id]
+        end
+
+        # Sleep for a random amount of time to avoid being blocked (longer helps)
+        sleep(rand(8..15))
+
+        # Fetch the article page with more realistic headers (Ruby/X.Y.Z often gets blocked)
+        headers = {
+          "User-Agent" =>
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language" => "en-US,en;q=0.9"
+        }
+
+        html = URI.open(article_url, headers).read
+        doc  = Nokogiri::HTML(html)
+
+        # Detect common Scholar block/captcha pages so you get a useful error
+        page_title = doc.at("title")&.text.to_s.downcase
+        if page_title.include?("sorry") || doc.at_css("form#gs_captcha_c, #captcha, input[name='captcha']")
+          raise "Blocked by Google Scholar (captcha/robot check). Try building locally or caching results."
+        end
+
+        citation_count = 0
+
+        # --- Attempt 1: extract from meta description tags ---
+        meta = doc.at_css('meta[name="description"]') || doc.at_css('meta[property="og:description"]')
+        if meta && meta["content"]
+          m = meta["content"].match(/Cited by\s+([\d,]+)/)
+          citation_count = m[1].delete(",").to_i if m
+        end
+
+        # --- Attempt 2: fallback to visible "Cited by N" link text ---
+        if citation_count == 0
+          cited_node = doc.at_xpath("//a[contains(normalize-space(.), 'Cited by')]")
+          if cited_node
+            m = cited_node.text.match(/Cited by\s+([\d,]+)/)
+            citation_count = m[1].delete(",").to_i if m
           end
+        end
 
-          # Sleep for a random amount of time to avoid being blocked
-          sleep(rand(3..5))
-
-          # Fetch the article page
-          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
-
-          # Attempt to extract the "Cited by n" string from the meta tags
-          citation_count = 0
-
-          # Look for meta tags with "name" attribute set to "description"
-          description_meta = doc.css('meta[name="description"]')
-          og_description_meta = doc.css('meta[property="og:description"]')
-
-          if !description_meta.empty?
-            cited_by_text = description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
-
-            if matches
-              citation_count = matches[1].sub(",", "").to_i
-            end
-
-          elsif !og_description_meta.empty?
-            cited_by_text = og_description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
-
-            if matches
-              citation_count = matches[1].sub(",", "").to_i
-            end
-          end
-
-        citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
+        # Format for badge (0 will show as 0)
+        citation_count = Helpers.number_to_human(
+          citation_count,
+          format: "%n%u",
+          precision: 2,
+          units: { thousand: "K", million: "M", billion: "B" }
+        )
 
       rescue Exception => e
-        # Handle any errors that may occur during fetching
         citation_count = "N/A"
-
-        # Print the error message including the exception class and message
         puts "Error fetching citation count for #{article_id} in #{article_url}: #{e.class} - #{e.message}"
       end
 
       GoogleScholarCitationsTag::Citations[article_id] = citation_count
-      return "#{citation_count}"
+      "#{citation_count}"
     end
   end
 end
 
-Liquid::Template.register_tag('google_scholar_citations', Jekyll::GoogleScholarCitationsTag)
+Liquid::Template.register_tag("google_scholar_citations", Jekyll::GoogleScholarCitationsTag)
