@@ -4,7 +4,7 @@
     "name": "Gabriel Gustavo Tavares Nunes Monteiro",
     "label": "Scientist",
     "image": "",
-    "email": "gtavares@bgc-jena.mog.de",
+    "email": "gtavares@bgc-jena.mpg.de",
     "phone": "+55 (19) 99806-0663",
     "url": "https://guto-monteiro.com/",
     "summary": "An early-career researcher eager to explore the microbial world through new perspectives",
@@ -78,6 +78,13 @@
     }
   ],
   "publications": [
+    {
+      "name": "Land-use intensification reshapes microbial phosphorus cycling, organic matter composition and phosphorus fractions in Amazonian soils",
+      "publisher": "ISME Communications",
+      "releaseDate": "2026-02-24",
+      "url": "https://academic.oup.com/ismecommun/article/6/1/ycag027/8495790",
+      "summary": ""
+    },
     {
       "name": "Denitrifying microbial genes quantification attests inference for potential N2O emissions in sugarcane soils by enzymatic bioanalysis",
       "publisher": "Frontiers in Soil Science",
